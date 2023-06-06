@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D20899BE2A2ED38B0077252A /* CustomAlert.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D20899AD2A2ED30E0077252A /* CustomAlert.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D237ADA2204F76A000D9A843 /* AlarmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D237ADA1204F76A000D9A843 /* AlarmsTableViewController.swift */; };
-		D23A818C273F15A7000282D0 /* CustomAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FBEB61273EF13100788F03 /* CustomAlert.framework */; platformFilter = ios; };
-		D23A818D273F15A7000282D0 /* CustomAlert.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2FBEB61273EF13100788F03 /* CustomAlert.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D25A7C6C20512021005AAC1C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A7C6B20512021005AAC1C /* Model.swift */; };
 		D275911D204F6FA4007954F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D275911C204F6FA4007954F3 /* AppDelegate.swift */; };
 		D2759122204F6FA5007954F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2759120204F6FA5007954F3 /* Main.storyboard */; };
@@ -19,18 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D2FBEB60273EF13100788F03 /* PBXContainerItemProxy */ = {
+		D20899AC2A2ED30E0077252A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2FBEB5C273EF13100788F03 /* CustomAlert.xcodeproj */;
+			containerPortal = D20899A82A2ED30D0077252A /* CustomAlert.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2DF79BC2061A1EF0049F14C;
-			remoteInfo = CustomAlert;
-		};
-		D2FBEB64273EF14C00788F03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2FBEB5C273EF13100788F03 /* CustomAlert.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2DF79BB2061A1EF0049F14C;
+			remoteGlobalIDString = D208999E2A2ED30D0077252A;
 			remoteInfo = CustomAlert;
 		};
 /* End PBXContainerItemProxy section */
@@ -38,11 +30,11 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		D2D295AB205B98950036303F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D23A818D273F15A7000282D0 /* CustomAlert.framework in Embed Frameworks */,
+				D20899BE2A2ED38B0077252A /* CustomAlert.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D20899A82A2ED30D0077252A /* CustomAlert.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomAlert.xcodeproj; path = CustomAlert/CustomAlert.xcodeproj; sourceTree = "<group>"; };
 		D237ADA1204F76A000D9A843 /* AlarmsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsTableViewController.swift; sourceTree = "<group>"; };
 		D25A7C6B20512021005AAC1C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D2759119204F6FA4007954F3 /* GetUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +56,6 @@
 		D2C3C8332A255F04006F0467 /* AlarmsList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlarmsList.png; sourceTree = "<group>"; };
 		D2C3C8352A255F04006F0467 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		D2C3C8362A255F04006F0467 /* SetAlarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SetAlarm.png; sourceTree = "<group>"; };
-		D2FBEB5C273EF13100788F03 /* CustomAlert.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomAlert.xcodeproj; path = ../CustomAlert/CustomAlert.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,18 +63,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D23A818C273F15A7000282D0 /* CustomAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D20899A92A2ED30D0077252A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D20899AD2A2ED30E0077252A /* CustomAlert.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D2759110204F6FA4007954F3 = {
 			isa = PBXGroup;
 			children = (
+				D20899A82A2ED30D0077252A /* CustomAlert.xcodeproj */,
 				D2C3C8312A255F04006F0467 /* AppScreens */,
-				D2FBEB5C273EF13100788F03 /* CustomAlert.xcodeproj */,
 				D275911B204F6FA4007954F3 /* GetUP */,
 				D275911A204F6FA4007954F3 /* Products */,
 			);
@@ -130,14 +129,6 @@
 			path = AppScreens;
 			sourceTree = "<group>";
 		};
-		D2FBEB5D273EF13100788F03 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D2FBEB61273EF13100788F03 /* CustomAlert.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,7 +144,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D2FBEB65273EF14C00788F03 /* PBXTargetDependency */,
 			);
 			name = GetUP;
 			packageProductDependencies = (
@@ -203,8 +193,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D2FBEB5D273EF13100788F03 /* Products */;
-					ProjectRef = D2FBEB5C273EF13100788F03 /* CustomAlert.xcodeproj */;
+					ProductGroup = D20899A92A2ED30D0077252A /* Products */;
+					ProjectRef = D20899A82A2ED30D0077252A /* CustomAlert.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -215,11 +205,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D2FBEB61273EF13100788F03 /* CustomAlert.framework */ = {
+		D20899AD2A2ED30E0077252A /* CustomAlert.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CustomAlert.framework;
-			remoteRef = D2FBEB60273EF13100788F03 /* PBXContainerItemProxy */;
+			remoteRef = D20899AC2A2ED30E0077252A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -250,14 +240,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D2FBEB65273EF14C00788F03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CustomAlert;
-			targetProxy = D2FBEB64273EF14C00788F03 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D2759120204F6FA5007954F3 /* Main.storyboard */ = {
